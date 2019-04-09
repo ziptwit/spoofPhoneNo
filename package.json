@@ -4,8 +4,8 @@
   "description": "Send text messages using a spoofed phone number",
   "main": "sms_test.js",
   "scripts": {
-    "run": "./spoof_sms.js",
-    "balance": "./spoof_sms.js -b"
+    "text": "node spoof_sms.js",
+    "balance": "node spoof_sms.js -b"
   },
   "dependencies": {
     "clockwork": "^0.1.4",

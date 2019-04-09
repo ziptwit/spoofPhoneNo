@@ -1,15 +1,10 @@
-# Phone number spoofer
-
-██████╗ ██╗  ██╗ ██████╗ ███╗   ██╗███████╗    ███████╗██████╗  ██████╗  ██████╗ ███████╗███████╗██████╗
-██╔══██╗██║  ██║██╔═══██╗████╗  ██║██╔════╝    ██╔════╝██╔══██╗██╔═══██╗██╔═══██╗██╔════╝██╔════╝██╔══██╗
-██████╔╝███████║██║   ██║██╔██╗ ██║█████╗      ███████╗██████╔╝██║   ██║██║   ██║█████╗  █████╗  ██████╔╝
-██╔═══╝ ██╔══██║██║   ██║██║╚██╗██║██╔══╝      ╚════██║██╔═══╝ ██║   ██║██║   ██║██╔══╝  ██╔══╝  ██╔══██╗
-██║     ██║  ██║╚██████╔╝██║ ╚████║███████╗    ███████║██║     ╚██████╔╝╚██████╔╝██║     ███████╗██║  ██║
-╚═╝     ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝╚══════╝    ╚══════╝╚═╝      ╚═════╝  ╚═════╝ ╚═╝     ╚══════╝╚═╝  ╚═╝   
+# Phone number spoofer  
 
 ## About
 
-This is a simple node.js script that sends text messages and allows you to spoof the sender phone number. Uses the clockworksms API
+This is a simple node.js script that sends text messages and allows you to spoof the sender phone number. Uses the clockworksms API.
+
+Credit to https://github.com/mediaburst/node-clockwork for supplying most of the code for this.
 
 ## Installation
 
@@ -29,9 +24,9 @@ Create a 'config.json' in the directory and copy and paste the following into it
 
 ## Usage
 
-For regular use run 'node run' and follow the prompts
+For regular use run 'npm run text' and follow the prompts. The phone number should have the country code in the number (44 for UK) for example: "447770 123456"
 
-To check the remaining balance on your account run 'node balance'
+To check the remaining balance on your account run 'npm run balance'
 
 ## legal
 

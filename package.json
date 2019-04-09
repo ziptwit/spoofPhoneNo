@@ -1,0 +1,25 @@
+{
+  "name": "spoofphoneno",
+  "version": "1.0.0",
+  "description": "Send text messages using a spoofed phone number",
+  "main": "sms_test.js",
+  "scripts": {
+    "run": "./spoof_sms.js",
+    "balance": "./spoof_sms.js -b"
+  },
+  "dependencies": {
+    "clockwork": "^0.1.4",
+    "prompt": "^1.0.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ziptwit/spoofPhoneNo.git"
+  },
+  "author": "ziptwit",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ziptwit/spoofPhoneNo/issues"
+  },
+  "homepage": "https://github.com/ziptwit/spoofPhoneNo#readme"
+}

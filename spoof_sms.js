@@ -9,7 +9,7 @@ else console.log('Error, wrong option.')
 function text() {
   prompt.start()
   prompt.get(['Sender phone number', 'Reciever phone number', 'Message to send'], function (err, result) {
-    clockwork.sendSms({ To: result['Sender phone number'], From: result['Reciever phone number'], Content: result['Message to send']},
+    clockwork.sendSms({ To: result['Reciever phone number'], From: result['Sender phone number'], Content: result['Message to send']},
       function(error, resp) {
         if (error) {
             console.log('Something went wrong', error)

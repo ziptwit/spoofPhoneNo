@@ -13,7 +13,11 @@ function text() {
       function(error, resp) {
         if (error) {
             console.log('Something went wrong', error)
-        } else {
+        }
+        else if (!resp.responses[0].id) {
+          console.log('Error, message not sent. Probably due to an invalid phone number supplied')
+        }
+        else {
             console.log('Message sent',resp.responses[0].id)
         }
     })
